@@ -162,7 +162,7 @@ void markdownPrintOnFailure(String markdown, String expected, String actual) {
   printOnFailure("""
 INPUT:
 '''r
-${whitespaceColor(markdown)}'''            
+${whitespaceColor(markdown)}'''
            
 EXPECTED:
 '''r

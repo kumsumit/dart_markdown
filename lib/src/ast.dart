@@ -135,7 +135,7 @@ class Text extends SourceSpanBase implements InlineObject {
       result = text.replaceAll('\n', ' ');
     }
     if (_tabRemaining != null) {
-      result = "${' ' * _tabRemaining!}$text";
+      result = "${' ' * _tabRemaining}$text";
     }
     return result;
   }
